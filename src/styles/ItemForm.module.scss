@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+}
